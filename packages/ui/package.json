@@ -1,0 +1,28 @@
+{
+  "name": "@kaze-ui/react",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/cjs/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsx ../../scripts/build.ts"
+  },
+  "dependencies": {
+    "@kaze-style/react": "^0.14.3",
+    "@kaze-style/themes": "^0.14.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}

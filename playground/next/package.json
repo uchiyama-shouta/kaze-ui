@@ -15,7 +15,7 @@
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@kaze-ui/packages-dialog": "*"
+    "@kaze-ui/react": "*"
   },
   "devDependencies": {
     "@kaze-style/next-plugin": "^0.14.3",

@@ -1,3 +1,4 @@
+import React from "react";
 import { createStyle } from "@kaze-style/react";
 
 const classes = createStyle({
