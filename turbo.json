@@ -1,0 +1,17 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "target/**"]
+    },
+    "dev": {
+      "cache": false
+    },
+    "test": {},
+    "type-check": {},
+    "exports-check": {},
+    "code-fix": {},
+    "code-check": {}
+  }
+}
